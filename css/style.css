@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+.alignleft{
+    float: left;
+    margin-right: 15px;
+}
+.alignright{
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter{
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus{
+    outline: 0 solid;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0 0 15px;
+    font-weight: 900;
+}
+body{
+    /* background: #2D3142; */
+    font-family: 'Raleway', sans-serif;
+} 
+
+/* --section style sheet start-- */
+
+.section-padding {
+    padding: 80px 0;
+}
+.team-bg{background-image: url('../css/img/Team-memeber-1.png');}
+.team-bg-2{background-image: url('../css/img/rosebelkhan.jpg');}
+.team-bg-3{background-image: url('../css/img/team-member-3.jpg');}
+
+
+h2.section-title {
+    position: relative;
+    text-align: right;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 700;
+    transform: rotate(270deg);
+    margin-top: 70px;
+}
+
+h2.section-title:before {
+    position: absolute;
+    height: 1px;
+    width: 70%;
+    content: '';
+    background: #000;
+    /* text-align: right; */
+    top: -100%;
+    right: 0;
+}
+
+.team-bg {
+    height: 230px;
+    background-size: cover;
+    background-position: center top;
+    margin-bottom: 50px;
+}
+
+.bordered-content {
+    border: 1px solid #333;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+.bordered-content h3 {
+    font-size: 18px;
+    background: #fff;
+    display: inline-block;
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+
+.team-title {
+    margin-top: -10px;
+}
+
+.col-md-4:nth-child(2) .single-team-member {
+    margin-top: 100px;
+}
